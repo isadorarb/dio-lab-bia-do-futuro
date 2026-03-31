@@ -50,16 +50,19 @@ flowchart TD
 
 A[Usuário] --> B[Interface do Agente\nApp / Chat / CLI]
 
-B --> C[Processador de Entrada\nLLM / Parser]
+B --> C[Processador de Entrada\nNLU / Parser]
 
 C --> D{Tipo de Solicitação}
 
 D --> E[Definir Meta Financeira]
+D --> Q[Atualizar Meta Financeira]
 D --> F[Atualizar Gastos Semanais]
 D --> G[Solicitar Simulação]
 D --> H[Consultar Progresso]
 
 E --> I[Motor de Planejamento Financeiro\nCalcula economia mensal]
+
+Q --> I
 
 F --> J[Gerenciador de Gastos]
 
