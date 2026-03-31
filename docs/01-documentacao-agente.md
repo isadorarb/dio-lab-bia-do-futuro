@@ -89,10 +89,16 @@ P --> B
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | Chatbot em Streamlit, CLI em Python ou aplicativo web |
+| Processador de Entrada | Interpreta a mensagem do usuário e identifica intenção: criar meta, registrar gastos, simular cenário |
+| LLM | GPT-4 via API | 
+| Motor de Planejamento Financeiro | Calcula quanto o usuário precisa guardar por mês para atingir a meta |
+| Motor de Simulação | Simula cenários de gastos ou mudanças de renda e recalcula o prazo da meta |
+| Gerenciador de Gastos | Registra e organiza gastos semanais ou mensais informados pelo usuário |
+| Monitor de Progresso | Acompanha quanto já foi economizado e compara com o plano original |
+| Base de Conhecimento | JSON, CSV ou banco de dados |
+| Serviço de Lembretes | Scheduler que envia lembretes semanais para o usuário atualizar os gastos |
+| Validação | Verifica inconsistências, valores inválidos e possíveis erros de interpretação do LLM |
 
 ---
 
