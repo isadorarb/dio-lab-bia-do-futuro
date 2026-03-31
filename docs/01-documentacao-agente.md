@@ -50,7 +50,7 @@ flowchart TD
 
 A[Usuário] --> B[Interface do Agente\nApp / Chat / CLI]
 
-B --> C[Processador de Entrada\nNLU / Parser]
+B --> C[Processador de Entrada\nLLM / Parser]
 
 C --> D{Tipo de Solicitação}
 
