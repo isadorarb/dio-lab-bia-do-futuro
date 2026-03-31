@@ -48,9 +48,9 @@ Técnico, formal-mas-não-tanto
 ```mermaid
 flowchart TD
 
-A[Usuário] --> B[Interface do Agente<br>(App / Chat / CLI)]
+A[Usuário] --> B[Interface do Agente\nApp / Chat / CLI]
 
-B --> C[Processador de Entrada<br>NLU / Parser]
+B --> C[Processador de Entrada\nNLU / Parser]
 
 C --> D{Tipo de Solicitação}
 
@@ -59,15 +59,15 @@ D --> F[Atualizar Gastos Semanais]
 D --> G[Solicitar Simulação]
 D --> H[Consultar Progresso]
 
-E --> I[Motor de Planejamento Financeiro<br>Calcula economia mensal necessária]
+E --> I[Motor de Planejamento Financeiro\nCalcula economia mensal]
 
 F --> J[Gerenciador de Gastos]
 
-G --> K[Motor de Simulação<br>Cenários de gastos e ganhos]
+G --> K[Motor de Simulação\nCenários de gastos e ganhos]
 
 H --> L[Monitor de Progresso]
 
-I --> M[Banco de Dados<br>Metas / Gastos / Histórico]
+I --> M[Banco de Dados\nMetas / Gastos / Histórico]
 J --> M
 K --> M
 L --> M
@@ -78,9 +78,9 @@ L --> N[Geração de Feedback]
 
 N --> B
 
-M --> O[Serviço de Lembretes Semanais<br>Scheduler]
+M --> O[Serviço de Lembretes Semanais\nScheduler]
 
-O --> P[Notificação ao Usuário<br>Solicita atualização de gastos]
+O --> P[Notificação ao Usuário\nSolicita atualização de gastos]
 
 P --> B
 ```
