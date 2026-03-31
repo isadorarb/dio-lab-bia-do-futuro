@@ -110,12 +110,17 @@ P --> B
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] Agente só responde com base nos dados fornecidos
+- [ ] Meta, gastos e ganhos - Os valores imputados devem ser todos positivos
+- [ ] Os cálculos financeiros vão ser feitos pelo programa em Python, não pelo LLM
+- [ ] Sistema de confirmação para mudança de meta e adição de ganhos e gastos
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- O agente não substitui consultoria financeira profissional;
+- O agente não recomenda investimentos específicos;
+- O agente não tem acesso direto à(s) conta(s) bancária(s) do usuário;
+- O agente depende das informações fornecidas pelo usuário;
+- As simulações realizadas pelo agente são estimativas;
+- O uso do agente não garante que a meta vai ser alcançada.
