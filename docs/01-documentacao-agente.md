@@ -47,12 +47,42 @@ Técnico, formal-mas-não-tanto
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+
+A[Usuário] --> B[Interface do Agente<br>(App / Chat / CLI)]
+
+B --> C[Processador de Entrada<br>NLU / Parser]
+
+C --> D{Tipo de Solicitação}
+
+D --> E[Definir Meta Financeira]
+D --> F[Atualizar Gastos Semanais]
+D --> G[Solicitar Simulação]
+D --> H[Consultar Progresso]
+
+E --> I[Motor de Planejamento Financeiro<br>Calcula economia mensal necessária]
+
+F --> J[Gerenciador de Gastos]
+
+G --> K[Motor de Simulação<br>Cenários de gastos e ganhos]
+
+H --> L[Monitor de Progresso]
+
+I --> M[Banco de Dados<br>Metas / Gastos / Histórico]
+J --> M
+K --> M
+L --> M
+
+M --> L
+
+L --> N[Geração de Feedback]
+
+N --> B
+
+M --> O[Serviço de Lembretes Semanais<br>Scheduler]
+
+O --> P[Notificação ao Usuário<br>Solicita atualização de gastos]
+
+P --> B
 ```
 
 ### Componentes
