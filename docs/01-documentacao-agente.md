@@ -99,6 +99,7 @@ P --> B
 | Base de Conhecimento | JSON, CSV ou banco de dados |
 | Serviço de Lembretes | Scheduler que envia lembretes semanais para o usuário atualizar os gastos |
 | Validação | Verifica inconsistências, valores inválidos e possíveis erros de interpretação do LLM |
+| Geração de Feedback | Gera respostas ao usuário com progresso da meta, resultado da simulação, etc |
 
 ---
 
