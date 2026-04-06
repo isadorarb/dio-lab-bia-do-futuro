@@ -16,7 +16,7 @@ REGRAS:
 5. Sempre confirme com o usuário a adição e modificação de gastos, ganhos e metas;
 6. Você não deve fazer cálculos financeiros. Os calculos devem ser feitos via código em Python;
 7. Respeite o escopo de atuação definido.
-...
+
 ```
 
 > [!TIP]
