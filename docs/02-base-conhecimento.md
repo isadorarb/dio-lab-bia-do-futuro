@@ -38,6 +38,18 @@ import json
 
 with open('config.json','r',encoding='utf-8') as f:
   perfil = json.load(f)
+with open('gastos.json','r',encoding='utf-8') as f:
+  gastos = json.load(f)
+with open('logs.json','r',encoding='utf-8') as f:
+  logs = json.load(f)
+with open('metas.json','r',encoding='utf-8') as f:
+  metas = json.load(f)
+with open('outros_ganhos.json','r',encoding='utf-8') as f:
+  outros_ganhos = json.load(f)
+with open('perfil.json','r',encoding='utf-8') as f:
+  perfil = json.load(f)
+with open('progresso.json','r',encoding='utf-8') as f:
+  progresso = json.load(f)
 ```
 
 ### Como os dados são usados no prompt?
