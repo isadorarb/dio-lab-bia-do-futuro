@@ -73,13 +73,13 @@ Dados do Usuário:
 
 Meta Financeira:
 - Valor da meta: R$ 10.000
-- Prazo: 10 meses
+- Prazo: 01/07/2026
 - Valor necessário por mês: R$ 900
 
 Progresso Atual:
 - Total guardado: R$ 2.400
 - Percentual da meta: 24%
-- Meses restantes: 6
+- Dias restantes: 90
 
 Resumo de Gastos Recentes:
 - 01/04/2026: R$ 250
