@@ -33,8 +33,12 @@ Eu inclui dados novos relacionados ao funcionamento do meu agente quanto à meta
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+```python
+import json
 
-Alguns dados são carregados no início da sessão, enquanto outros só são carregados quando necessário.
+with open('config.json','r',encoding='utf-8') as f:
+  perfil = json.load(f)
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
