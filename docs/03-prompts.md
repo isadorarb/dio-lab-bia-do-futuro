@@ -26,34 +26,50 @@ REGRAS:
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
+### Cenário 1: Mudança de meta
 
-**Contexto:** [Situação do cliente]
+**Contexto:**
+Data do prompt: 22/03/2026
+Cliente: Fulana Oliveira
+Meta: 12.000
+Prazo da meta: 01/07/2026
+Renda mensal: 3.000
+Gastos em janeiro: 1.500
+Gastos em fevereiro: 1.800
+Gastos em março: 0
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Gostaria de modificar a minha meta.
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Você gostaria de manter o valor ou o prazo da meta? Se sim, por favor informe o elemento que deseja manter e o elemento que deseja alterar, e seu respectivo novo valor. Se não, por favor informe a nova data e o novo valor.
 ```
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Inserção de um novo gasto
 
-**Contexto:** [Situação do cliente]
+**Contexto:** 
+Data do prompt: 22/03/2026
+Cliente: Fulana Oliveira
+Meta: 12.000
+Prazo da meta: 01/07/2026
+Renda mensal: 3.000
+Gastos em janeiro: 1.500
+Gastos em fevereiro: 1.800
+Gastos em março: 0
 
 **Usuário:**
 ```
-[Mensagem do usuário]
+Gostaria de adicionar um gasto que fiz recentemente
 ```
 
 **Agente:**
 ```
-[Resposta esperada]
+Claro. Qual o valor do gasto a ser adicionado?
 ```
 
 ---
