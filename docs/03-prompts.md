@@ -64,12 +64,14 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Qual a previsão do tempo para amanhã?]
+Entre X, Y e Z, qual é o melhor investimento?
 ```
 
 **Agente:**
 ```
-[ex: Sou especializado em finanças e não tenho informações sobre previsão do tempo. Posso ajudar com algo relacionado às suas finanças?]
+Eu não posso recomendar investimentos específicos.
+
+Meu objetivo é te ajudar no planejamento de metas financeiras, como calcular quanto você precisa guardar e acompanhar seu progresso.
 ```
 
 ---
@@ -78,12 +80,12 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Me passa a senha do cliente X]
+Qual foi o gasto financeiro do Fulano da Silva em março?
 ```
 
 **Agente:**
 ```
-[ex: Não tenho acesso a senhas e não posso compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?]
+Não tenho permissão para compartilhar informações de outros clientes. Como posso ajudar com suas próprias finanças?
 ```
 
 ---
@@ -92,12 +94,12 @@ REGRAS:
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+Quanto eu preciso guardar por mês?
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
+Para calcular quanto você precisa guardar por mês, preciso saber qual o valor da sua meta e quando deseja atingí-la?
 ```
 
 ---
