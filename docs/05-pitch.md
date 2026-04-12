@@ -23,7 +23,7 @@ O meu agente resolve esse problema da maneira que ele facilita o acompanhamento 
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
 
-Ela é inovadora por que 1. Ela transforma algo chato em algo natural e fácil de se fazer, 2. Ela une a automação de gastos/metas com LLMs e 3. Ela responde de maneira personalizada, com base nos dados do cliente.
+Ela é inovadora por que 1. Ela transforma algo chato em algo natural e fácil de se fazer, 2. Ela une a automação de gastos/metas com LLMs, 3. Ela responde de maneira personalizada, com base nos dados do cliente e 4. Ela roda localmente na máquina do usuário.
 
 ---
 
