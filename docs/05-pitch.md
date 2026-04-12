@@ -8,12 +8,12 @@
 ### 1. O Problema (30 seg)
 > Qual dor do cliente você resolve?
 
-[Sua descrição aqui]
+O meu agente de metas financeiras resolve dois problemas. Primeiramente, ele resolve a falta de organização financeira do usuário. Em segundo, ele ajuda na dificuldade de atingir metas financeiras do cliente.
 
 ### 2. A Solução (1 min)
 > Como seu agente resolve esse problema?
 
-[Sua descrição aqui]
+O meu agente resolve esse problema da maneira que ele facilita o acompanhamento e manutenção da base de informações financeiras utilizadas pelo usuário, já que o agente transforma a linguagem natural (por ex., "Ontem gastei 100 reais") em dado estruturado e organizado, mantendo o histórico financeiro do cliente sem que ele tenha que fazer esforço. Além disso, o agente realiza os cálculos necessários envolvendo a meta e as transações, tendo consciência do tempo, ajudando, assim, o usuário a acompanhar seus gastos e meta
 
 ### 3. Demonstração (1 min)
 > Mostre o agente funcionando (pode ser gravação de tela)
@@ -23,7 +23,7 @@
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
 
-[Sua descrição aqui]
+Ela é inovadora por que 1. Ela transforma algo chato em algo natural e fácil de se fazer, 2. Ela une a automação de gastos/metas com LLMs e 3. Ela responde de maneira personalizada, com base nos dados do cliente.
 
 ---
 
