@@ -6,26 +6,22 @@ Esta pasta contém o código do seu agente financeiro.
 
 ```
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+├── app.py         
+
 ```
 
 ## Exemplo de requirements.txt
 
 ```
 streamlit
-openai
-python-dotenv
+ollama - gpt-oss:20b
+requests
+datetime
 ```
 
 ## Como Rodar
 
-```bash
-# Instalar dependências
-pip install -r requirements.txt
-
+```
 # Rodar a aplicação
 streamlit run app.py
 ```
