@@ -17,8 +17,12 @@ O meu agente resolve esse problema da maneira que ele facilita o acompanhamento 
 
 ### 3. Demonstração (1 min)
 > Mostre o agente funcionando (pode ser gravação de tela)
-
-[Descreva o que será mostrado]
+Será mostrado:
+- Progresso da meta;
+- Input de gasto;
+- Input de ganho;
+- Confirmação;
+- Pergunta de quanto foi o gasto no mês de abril.
 
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
@@ -29,11 +33,11 @@ Ela é inovadora por que 1. Ela transforma algo chato em algo natural e fácil d
 
 ## Checklist do Pitch
 
-- [ ] Duração máxima de 3 minutos
-- [ ] Problema claramente definido
-- [ ] Solução demonstrada na prática
-- [ ] Diferencial explicado
-- [ ] Áudio e vídeo com boa qualidade
+- [x] Duração máxima de 3 minutos
+- [x] Problema claramente definido
+- [x] Solução demonstrada na prática
+- [x] Diferencial explicado
+- [x] Áudio e vídeo com boa qualidade
 
 ---
 
@@ -41,4 +45,4 @@ Ela é inovadora por que 1. Ela transforma algo chato em algo natural e fácil d
 
 > Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
 
-[Link do vídeo]
+[Link do vídeo](https://drive.google.com/file/d/15V0QlQPecWL__RfTFT_-PMN6TiMB36Nk/view?usp=sharing)
